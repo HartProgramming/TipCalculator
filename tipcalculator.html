@@ -15,25 +15,25 @@
         <div id="contain">
         <div>
         <label for="checkprice">Total Price
-            <input type="text" name="checkprice">
+            <input id="price" type="number" value="100" name="checkprice">
         </label>
         </div>
         <div>
         <label for="percent">
-            <input type="range" min="1" max="50" id="slider">
+            <input name="percent" type="range" min="1" max="50" value="15" id="slider">
         </label>
         </div>
         <div>
-            <p>10<span>%</span></p>
+            <p><span id="per">10</span>%</p>
         </div>
         <div>
             <label for="tipamt">Tip Amount
-                <input type="text">
+                <input name="tipamt" id="tip" value="10" type="number">
             </label>
         </div>
         <div>
             <label for="total">Total Check
-                <input type="text">
+                <input name="total" id="total" value="110" type="number">
             </label>
         </div>
         </div>
